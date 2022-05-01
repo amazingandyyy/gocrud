@@ -1,3 +1,3 @@
-module __REPO_NAME__
+module gocrud
 
 go 1.17

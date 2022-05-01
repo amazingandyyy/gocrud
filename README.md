@@ -2,51 +2,22 @@
     <img styles="margin: 0px" width="350px" src="https://i.giphy.com/media/NytMLKyiaIh6VH9SPm/giphy.webp" />
 </p>
 <h1 align="center">
-__REPO_NAME__
+gocrud
 </h1>
 <h4 align="center">
-title
+CRUD in go
 </h4>
 <p align="center">
-sub title
+Go Create, Read, Update, Delete
 </p>
-
-## Installation
-
-It's easy!
-
-```sh
-bash <(curl -sL https://raw.githubusercontent.com/amazingandyyy/__REPO_NAME__/main/scripts/install.sh)
-```
-
-## Preparation
-
-- [Generate a Github personal access token](https://github.com/settings/tokens/new?scopes=repo&description=__REPO_NAME__-cli)
-  - [repo] scrope
-  - [no expiration]
-
-## Usage
-
-```
-# get instructions
-__REPO_NAME__ -help
-
-# regex mode
-__REPO_NAME__ -owner amazingandyyy -search ".*-deployments$" -output ./code
-# wildcard mode
-__REPO_NAME__ -owner amazingandyyy -search "*-deployments" -mode wildcard -output ./projects
-
-# interactive mode
-__REPO_NAME__
-```
 
 ## Development
 
 ### Initialization
 
 ```sh
-git clone https://github.com/amazingandyyy/__REPO_NAME__.git
-cd __REPO_NAME__
+git clone https://github.com/amazingandyyy/gocrud.git
+cd gocrud
 ./script/setup.sh
 ```
 
@@ -65,7 +36,7 @@ pre-commit run --all-files
 - Try out this tool
 - Star this repo
 - Share with your friend!
-- [Create issue](https://github.com/amazingandyyy/__REPO_NAME__/issues/new)
+- [Create issue](https://github.com/amazingandyyy/gocrud/issues/new)
 - Create PRs
 
 ## Resources
